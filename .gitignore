@@ -11,6 +11,8 @@
 # production
 /build
 
+*Исходники*
+
 # misc
 .DS_Store
 .env.local
