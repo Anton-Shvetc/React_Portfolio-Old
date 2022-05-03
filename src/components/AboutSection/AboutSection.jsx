@@ -3,7 +3,7 @@ import PText from "../PText/PText";
 import Button from "../Button/Button";
 
 const SectionTitleStyle = styled.div`
-  text-aligin: center;
+  text-align: center;
   p {
     font-size: 2rem;
   }

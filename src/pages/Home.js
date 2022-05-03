@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "../components/HeroSection/HeroSection";
 import AboutSection from "../components/AboutSection/AboutSection";
+import ServiceSection from "../components/ServiceSection/ServiceSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <h1>
         <HeroSection />
         <AboutSection />
+        <ServiceSection />
       </h1>
     </div>
   );
