@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import PText from "../PText/PText";
 import Button from "../Button/Button";
+import SectionTitle from "../SectionTitile/SectionTitile";
 
 const SectionTitleStyle = styled.div`
   text-align: center;
@@ -24,13 +25,11 @@ const SectionTitleStyle = styled.div`
 
 function AboutSection() {
   return (
-    <div>
+    <SectionTitleStyle>
       <div className="container">
         <div className="aboutSection-left">
-          <SectionTitleStyle>
-            <p>This is subtitle</p>
-            <h2>About me </h2>
-          </SectionTitleStyle>
+          <SectionTitle subtitle="This is subtitle" title="About me" />
+
           <PText>I am a freelance Frontend developer and more...</PText>
           <div className="aboutSection-button">
             <Button btnLink="/projects" btnText="Works" />
@@ -39,7 +38,7 @@ function AboutSection() {
         </div>
         <div className="aboutSection-right"></div>
       </div>
-    </div>
+    </SectionTitleStyle>
   );
 }
 
