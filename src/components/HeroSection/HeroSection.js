@@ -37,6 +37,8 @@ const HeroStyles = styled.div`
     border: 2px solid var(--gray-1);
   }
   .hero__info {
+    max-width: 500px;
+    margin: 0 auto;
     margin-top: -18rem;
   }
   .hero__social,
