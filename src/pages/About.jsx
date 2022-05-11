@@ -4,7 +4,6 @@ import PText from "../components/PText/PText";
 import AboutInfoItem from "../components/AboutInfoItem/AboutInfoItem";
 import ContactBanner from "../components/ContactBanner/ContactBanner";
 import AboutImg from "../assets/images/about-page-img.png";
-
 import styled from "styled-components";
 
 const AboutPagesStyle = styled.div`

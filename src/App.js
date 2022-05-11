@@ -4,13 +4,13 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <Router>
       <NavMenu />
       <Switch>
-
         <Route path="/about">
           <About />
         </Route>
@@ -24,6 +24,7 @@ function App() {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

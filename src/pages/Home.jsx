@@ -15,7 +15,6 @@ export default function Home() {
         <ServiceSection />
         <ProjectsSection />
         <ContactBanner />
-        <Footer />
       </h1>
     </div>
   );
